@@ -49,7 +49,7 @@ class HookNet(Model):
         hook_indices: tuple,
         n_classes: int,
         model_weights=None,
-        depth: int = 4,
+        depth: int = 8,
         n_convs: int = 2,
         filter_size: int = 3,
         n_filters: int = 16,
