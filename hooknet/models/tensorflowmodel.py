@@ -50,7 +50,7 @@ class HookNet(Model):
         n_classes: int,
         model_weights=None,
         depth: int = 4,
-        n_convs: int = 2,
+        n_convs: int = 3,
         filter_size: int = 3,
         n_filters: int = 16,
         padding: str = "valid",
