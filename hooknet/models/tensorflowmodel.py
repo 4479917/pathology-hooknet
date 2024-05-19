@@ -57,7 +57,7 @@ class HookNet(Model):
         batch_norm: bool = False,
         activation: str = "relu",
         learning_rate: float = 0.00005,
-        opt_name: str = "sgd",
+        opt_name: str = "adam",
         l2_lambda: float = 0.001,
         loss_weights: List[float] = [1.0, 0.0],
         merge_type: str = "concat",
