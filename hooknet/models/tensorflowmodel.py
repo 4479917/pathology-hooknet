@@ -55,7 +55,7 @@ class HookNet(Model):
         n_filters: int = 16,
         padding: str = "valid",
         batch_norm: bool = False,
-        activation: str = "relu",
+        activation: str = "sgd",
         learning_rate: float = 0.00005,
         opt_name: str = "adam",
         l2_lambda: float = 0.001,
